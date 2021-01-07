@@ -1,4 +1,10 @@
-# Velodyne
+Repository for VelodyneLiDAR VLS sensors (It currently supports VLS-128).
 
-useful files for working with lidar
-existence of a script which returns only the angles useful for the detection of obstacles
+The code is highly leveraged from https://github.com/ros-drivers/velodyne. 
+
+This code is only tested in ROS Kinetic.
+
+Compile instruction:
+```
+catkin_make -DCMAKE_BUILD=Release
+```
